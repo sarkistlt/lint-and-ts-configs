@@ -16,20 +16,6 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "noImplicitAny": false,
-    "strictNullChecks": true,
-    "baseUrl": ".",
-    "paths": {
-      "@helpers/*": ["src/helpers/*"],
-      "@hooks/*": ["src/api/hooks/*"],
-      "@api/*": ["src/api/*"]
-    }
-  },
-  "include": ["typings/**/*", "src/**/*"],
-  "exclude": [
-    "node_modules",
-    "**/node_modules/*",
-    "build",
-    "**/*.spec.ts",
-    "**/*.test.ts"
-  ]
+    "strictNullChecks": true
+  }
 }
