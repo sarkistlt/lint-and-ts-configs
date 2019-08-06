@@ -1,0 +1,42 @@
+{
+  "name": "lint-and-ts-configs",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "git://github.com/sarkistlt/lint-and-ts-configs",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sarkistlt/lint-and-ts-configs.git"
+  },
+  "author": {
+    "name": "Sarkis Arutiunian",
+    "email": "sarkis.tlt@gmail.com"
+  },
+  "scripts": {
+    "commit": "npx git-cz",
+    "release": "npx semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "7.11.1"
+  },
+  "devDependencies": {
+    "semantic-release": "15.12.0",
+    "@semantic-release/git": "^7.0.1",
+    "@semantic-release/github": "^5.0.1",
+    "@semantic-release/npm": "^5.0.4",
+    "@semantic-release/release-notes-generator": "^7.2.1"
+  }
+}

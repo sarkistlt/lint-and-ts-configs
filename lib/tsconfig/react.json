@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "build",
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es2018",
+    "jsx": "react",
+    "sourceMap": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*": ["src/helpers/*"],
+      "@hooks/*": ["src/api/hooks/*"],
+      "@api/*": ["src/api/*"]
+    }
+  },
+  "include": ["typings/**/*", "src/**/*"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "build",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
