@@ -1,7 +1,7 @@
 {
   "name": "lint-and-ts-configs",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "git://github.com/sarkistlt/lint-and-ts-configs",
   "main": "lib/index.js",
   "license": "MIT",
@@ -31,7 +31,8 @@
     "eslint-import-resolver-typescript": "^1.1.1",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-react": "^7.14.3",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@semantic-release/git": "^7.0.1",
