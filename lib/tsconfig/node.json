@@ -4,7 +4,6 @@
     "noEmitOnError": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "build",
     "allowJs": true,
     "checkJs": false,
     "resolveJsonModule": true,
