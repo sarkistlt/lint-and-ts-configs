@@ -1,9 +1,8 @@
 {
   "name": "lint-and-ts-configs",
   "description": "",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "homepage": "git://github.com/sarkistlt/lint-and-ts-configs",
-  "main": "lib/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
