@@ -1,7 +1,7 @@
 {
   "name": "lint-and-ts-configs",
   "description": "",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "homepage": "git://github.com/sarkistlt/lint-and-ts-configs",
   "main": "lib/index.js",
   "license": "MIT",
@@ -23,16 +23,16 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-import-resolver-typescript": "^1.1.1",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "typescript": "^3.5.3"
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "typescript": "^3.7.5"
   },
   "devDependencies": {
     "@semantic-release/git": "^7.0.1",
